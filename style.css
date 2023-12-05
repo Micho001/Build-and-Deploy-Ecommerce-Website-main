@@ -50,17 +50,12 @@ button.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    background-color: #222;
+    background-color: #088178;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-button.normal:hover {
-    background-color: #088178;
-    color: #222;
 }
 
 /* Body */
@@ -724,6 +719,15 @@ footer .copyright{
 
 #about-app{
     text-align: center;
+}
+
+#about-app a{
+    color: #1a1a1a;
+    transition: all 0.3s ease;
+}
+
+#about-app a:hover{
+    color: #088178;
 }
 
 #about-app .video{
